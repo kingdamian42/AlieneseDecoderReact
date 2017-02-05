@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Alienese1';
+    src: url('fonts/fr-fal1-2-webfont.eot');
+    src: url('fonts/fr-fal1-2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fr-fal1-2-webfont.woff') format('woff'),
+         url('fonts/fr-fal1-2-webfont.ttf') format('truetype'),
+         url('fonts/fr-fal1-2-webfont.svg#futurama_alien_alphabet_oneRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Alienese2';
+    src: url('fonts/fr-fal2.eot');
+    src: local('☺'), url('fonts/fr-fal2.woff') format('woff'), url('fonts/fr-fal2.ttf') format('truetype'), url('fonts/fr-fal2.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.alienese1 {
+    font-family:"Alienese1";
+}
+.alienese2 {
+    font-family:"Alienese2";
+}
+button {
+    margin: 3px;
+}
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+}
+.decodedView{
+    min-height: 80px;
+    overflow-x: auto;
+    border: 1px solid #AAAAAA;
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+.encodedView{
+    min-height: 80px;
+    overflow-x: auto;
+    border: 1px solid #AAAAAA;
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+.encodedViewHistory{
+    min-height: 40px;
+    overflow-x: auto;
+    color: #888;
+    border: 1px solid #AAAAAA;
+    background-color: #FDFDFD;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.25em;
+}
+.app{
+    border: 1px solid #AAA;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.appHeader{
+    border-bottom: 1px solid #BBB;
+    font-size: 2em;
+    text-align: center;
+}
+.appContent{
+    padding: 20px;
+}
+.alKey{
+    text-align:center;
+}
+.alKeyRow{
+    width: 100%;
+}
+.alKeyCell{
+    border: 1px solid #BBB;
+}
+#blurb{
+    text-align:center;
+    width:60%;
+    margin:auto auto;
+    font-size: 1.5em;
+    padding: 15px;
+}
+#masthead{
+    font-size: 2em;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom:25px;
+    border-bottom: 1px solid #CCC;
+}

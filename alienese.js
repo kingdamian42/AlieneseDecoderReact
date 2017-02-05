@@ -333,14 +333,14 @@ var Alienese = (function () {
 
     var app =
         el('div', { className: 'row' },
-            el('div', { className: 'col-md-1' },
-                el(alKey, {}, null)
-            ),
-            el('div', { className: 'col-md-11' },
+            el('div', { className: 'col-md-11 col-md-push-1' },
                 el(Decoder1, {}, null),
                 el(Encoder1, {}, null),
                 el(Decoder2, {}, null),
                 el(Encoder2, {}, null)
+            ),
+            el('div', { className: 'col-md-1 col-md-pull-11' },
+                el(alKey, {}, null)
             )
         );
 

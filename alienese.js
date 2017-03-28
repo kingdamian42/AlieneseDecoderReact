@@ -268,7 +268,7 @@ var Alienese = (function () {
                 return lastFunc + ' ';
             }
             var newNum = this.charVal(lastFuncChr) + this.charVal(lastChr);
-            if (newNum > 26) newNum %= 26;
+            if (newNum > 25) newNum -= 26;
             return lastFunc + String.fromCharCode(97 + newNum);
         },
         charVal: function (chr) {

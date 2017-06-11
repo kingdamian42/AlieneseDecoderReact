@@ -76,6 +76,7 @@ var Alienese = (function () {
                     onClick: ctx.onSpaceBtnClick.bind(null, ctx)
                 }, '[SPACE]');
 
+            var inputView = el('div', { className: 'col-md-8 col-md-offset-2 encodedViewHistory alienese1' }, ctx.state.decoded);
             var resultView = el('div', { className: 'col-md-8 col-md-offset-2 decodedView' }, ctx.state.decoded);
 
             var comp =
@@ -88,6 +89,7 @@ var Alienese = (function () {
                             el('div', { className: 'al1Spec' }, specButtons)
                         ),
                         el('div', { className: 'al1Actions' }, clearBtn, delBtn, spaceBtn),
+                        inputView,
                         resultView
                     )
                 );
